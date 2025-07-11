@@ -1,0 +1,284 @@
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F9FF;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    font-size: medium;
+    color: black;
+    background-color: gold;
+    transform: scale(1.05);
+}
+
+section {
+    margin: 0 60px;
+}
+
+/* Banner Section Start  */
+header {
+    background-image: url(Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+#banner {
+    margin: 0 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#banner nav div,
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+#bannerphth {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#bannerphth p {
+    margin-bottom: 20px;
+}
+
+/* Banner Section End */
+
+/* Article Section Add  */
+#fist-article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    height: 328px;
+    align-items: center;
+    font-size: 25px;
+}
+
+#article-text p {
+    font-size: 22px;
+}
+
+#article-text,
+img {
+    border-radius: 30px;
+}
+
+/* Article Section End  */
+
+/* Contain Over vew Start  */
+#overvew {
+    margin-top: 80px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px;
+    background-color: rgb(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+#vew-contain {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#vew-contain div,
+h1,
+p {
+    font-family: "Inter", sans-serif;
+}
+
+.vew-h1 {
+    font-size: 60px;
+    color: #4E47FF;
+}
+
+.vew-p {
+    font-size: small;
+}
+
+/* Contain Over vew End  */
+
+/* Review Section Start  */
+#review h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.review-card {
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 0 20px 25px;
+    border: solid 1.5px rgb(255, 166, 0, 0.1);
+    margin: 0 auto;
+}
+
+.star {
+    font-size: 30px;
+    color: #ffcc00;
+}
+
+.review-text {
+    margin-top: 15px;
+    font-size: medium;
+    line-height: 25px;
+}
+
+.review-contain-img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.review-contain-img img {
+    width: 55px;
+}
+
+.review-contain-img p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: gray;
+}
+
+#allcard {
+    display: flex;
+    gap: 20px;
+    margin-top: 55px;
+}
+
+/* Review Section End  */
+
+/* About Contain Start */
+#about-contain {
+    text-align: center;
+    background-color: white;
+    border-radius: 18px;
+    height: 660px;
+    margin-top: 100px;
+}
+
+#about-contain h2 {
+    font-size: 55px;
+    color: black;
+    padding-top: 40px;
+}
+
+/* About Contain End */
+
+/* Contuct Form Start  */
+#contuct h1 {
+    font-size: 100px;
+}
+
+#contuct {
+    margin-top: 80px;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#f-text label,
+input {
+    font-family: "Inter", sans-serif;
+}
+
+#f-text input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 80vh;
+    height: 60px;
+    border: solid 1.5px gainsboro;
+    border-radius: 10px;
+}
+
+#sub-button {
+    width: 80vh;
+    height: 55px;
+}
+
+textarea {
+    font-family: "Inter", sans-serif;
+    width: 80vh;
+    height: 130px;
+    border: solid 1.5px gainsboro;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+/* Contuct Form End */
+
+/* Footer Section Start  */
+footer {
+    border-top: solid 2px rgb(128, 128, 128, 0.1);
+    padding: 70px;
+    background-color: white;
+}
+
+footer h1 {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: #4E47FF;
+}
+
+footer p {
+    line-height: 24px;
+}
+
+footer,
+a {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #4E47FF;
+}
+/* Footer Section End  */
